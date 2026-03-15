@@ -33,6 +33,7 @@ class MyApp extends StatelessWidget {
             return MaterialApp(
               title: "Hotspot Chat",
               navigatorKey: NavigationService.navigatorKey,
+              debugShowCheckedModeBanner: false,
               theme: ThemeData(
                 colorScheme:
                     ColorScheme.fromSeed(seedColor: AppColors.primaryColor),
